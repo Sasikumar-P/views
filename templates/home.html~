@@ -1,0 +1,8 @@
+<html>
+<body>
+<p>HELLO</p>
+<a href="{% url 'function' %}">function</a></br>
+<a href="{% url 'cbv' %}">function1</a></br>
+<a href="{% url 'cbgv' %}">function2</a></br>
+</body>
+</html>

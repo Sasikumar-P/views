@@ -1,0 +1,7 @@
+<h1>Demo Form</h1>
+
+<form role="form" method="post" action="{% url 'function' %}">
+    {% csrf_token %}
+    {{ form }}
+    <button type="submit">Save</button>
+</form>
